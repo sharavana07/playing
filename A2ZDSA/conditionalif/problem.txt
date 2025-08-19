@@ -1,0 +1,63 @@
+
+### 🚦 Problem Statement: *"Smart Traffic Fine Calculator"*
+
+A city has implemented a smart traffic system that calculates fines based on **vehicle speed** and **driver type**.
+
+Write a C++ program that:
+
+1. Takes as input:
+
+   * Vehicle speed (integer)
+   * Driver type (`N` for normal citizen, `V` for VIP, `P` for police)
+
+2. Applies the following rules:
+
+   * Speed ≤ 60 → No fine.
+   * Speed 61–80 → Fine ₹500 for normal drivers, but only ₹200 for VIPs. Police are exempt.
+   * Speed 81–100 → Fine ₹2000 for normal drivers, ₹1000 for VIPs. Police are exempt.
+   * Speed > 100 → Fine ₹5000 for normal drivers, ₹2500 for VIPs. Police are exempt.
+
+3. The program should **output the fine amount** or `"No fine"` accordingly.
+
+---
+
+### 🔑 Example Runs
+
+**Input:**
+
+```
+Speed: 75
+Driver type: N
+```
+
+**Output:**
+
+```
+Fine: ₹500
+```
+
+**Input:**
+
+```
+Speed: 95
+Driver type: V
+```
+
+**Output:**
+
+```
+Fine: ₹1000
+```
+
+**Input:**
+
+```
+Speed: 120
+Driver type: P
+```
+
+**Output:**
+
+```
+No fine
+```
