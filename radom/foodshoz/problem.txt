@@ -1,0 +1,66 @@
+Got it ✅ Let’s strip away the code and focus **only on the problem statement in a clear, professional format**.
+
+---
+
+# 🍔 Restaurant Order Billing System – Problem Statement
+
+### Context
+
+You are tasked with developing a simple **restaurant billing application** for a small food corner. The program should allow customers to place multiple orders, calculate the bill, and apply discounts if applicable.
+
+---
+
+### Requirements
+
+1. **Display a Menu**
+
+   * The restaurant has 5 items with fixed prices:
+
+     * Pizza – ₹250
+     * Burger – ₹120
+     * Pasta – ₹150
+     * Sandwich – ₹100
+     * Coffee – ₹80
+
+2. **Take Orders Using Switch Case**
+
+   * The customer selects an item by entering a number (1–5).
+   * The program asks for the **quantity** of the selected item.
+   * Based on the choice, the cost is added to the bill.
+
+3. **Multiple Orders with Loop**
+
+   * After each order, the program asks:
+     *“Do you want to order more? (Y/N)”*
+   * If the customer chooses **Yes**, the program repeats.
+   * If the customer chooses **No**, the ordering process ends.
+
+4. **Bill Calculation with Discount**
+
+   * Compute the **total bill amount**.
+   * If the bill is **greater than ₹500**, apply a **10% discount**.
+   * Otherwise, no discount is applied.
+
+5. **Final Output**
+
+   * Display the **final payable amount**.
+   * Show a thank-you message at the end.
+
+---
+
+### Learning Outcomes
+
+By solving this problem, you will practice:
+
+* Using a **switch case** for menu-driven selection.
+* Using a **for loop (or while loop)** to repeat orders until the customer exits.
+* Applying **if conditions** for logical decision-making (discount check).
+* Handling **real-world style input/output** in C++.
+
+---
+
+⚡ This problem simulates a **real billing counter system**, making it practical while strengthening your **control flow** concepts in C++.
+
+---
+
+Would you like me to **make it a step-by-step assignment** (breaking it into smaller subtasks you solve one by one), so it feels like building the system gradually?
