@@ -1,0 +1,44 @@
+📝 Problem Statement: ATM Cash Withdrawal System
+
+A bank ATM machine dispenses cash in denominations of ₹2000, ₹500, and ₹100.
+
+You are required to design a program that simulates the withdrawal process.
+
+Requirements:
+
+The user enters the amount they wish to withdraw.
+
+The program must check if the amount is a multiple of ₹100.
+
+If not, display an error message and terminate.
+
+If valid, the ATM should dispense the amount using the minimum number of notes, starting from the highest denomination (₹2000) down to the lowest (₹100).
+
+The program should then display:
+
+Number of ₹2000 notes,
+
+Number of ₹500 notes,
+
+Number of ₹100 notes.
+
+Constraints:
+
+Input must be a positive integer.
+
+Input must be ≥ 100 and a multiple of 100.
+
+Denominations available: {2000, 500, 100} only.
+
+Example 1:
+
+Input: 3700
+Output:
+2000 notes: 1
+500 notes: 3
+100 notes: 2
+
+Example 2:
+Input: 2550
+Output:
+Invalid amount. Please enter in multiples of 100.
