@@ -5,8 +5,8 @@ using namespace std;
 void printNumTriangle(int n){
 
     for(int i=1; i <= n; i++){
-        for(int j = n; j >= 0 ; j--){
-            cout<<j;
+        for(int j = n; j >= n - i+1 ; j--){
+            cout<<"* ";
         }
         cout<<endl;
     }
