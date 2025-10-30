@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// this is where the students struct is initated 
+// this struct collect and use and has the INT roll.no , STRING Name , FLOAT Marks 
 struct students{
 
     int rollno;
