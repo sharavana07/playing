@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+//to perform basic struct in cpp
 
 using namespace std;
 
