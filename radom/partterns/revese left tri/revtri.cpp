@@ -10,6 +10,8 @@ int main(){
         for(int j = 1; j <= i; j++){
             cout<<"OOO";
         }
+
+
         cout<<endl;
     }
     return 0;
