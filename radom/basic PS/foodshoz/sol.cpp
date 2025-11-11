@@ -10,10 +10,15 @@ int main(){
     cout<<"================================================================================================"<<endl;
 
     cout<<"1. Idli - 20rs/plate"<<endl;
-    cout<<"2. Dosa - 30rs/plate"<<endl;    
+    
+    cout<<"2. Dosa - 30rs/plate"<<endl; 
+    
     cout<<"3. Vada - 15rs/plate"<<endl;
+    
     cout<<"4. Pongal - 25rs/plate"<<endl;
+    
     cout<<"5. Coffee - 10rs/cup"<<endl;
+    
     cout<<"6. Tea - 5rs/cup"<<endl;
     int total = 0;
 
